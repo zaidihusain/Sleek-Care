@@ -1,0 +1,538 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5D2B164F2B658F1500D54ECF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D2B164E2B658F1500D54ECF /* AppDelegate.swift */; };
+		5D2B16512B658F1500D54ECF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D2B16502B658F1500D54ECF /* SceneDelegate.swift */; };
+		5D2B16532B658F1500D54ECF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D2B16522B658F1500D54ECF /* ViewController.swift */; };
+		5D2B16562B658F1500D54ECF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D2B16542B658F1500D54ECF /* Main.storyboard */; };
+		5D2B16592B658F1500D54ECF /* SleekCare.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5D2B16572B658F1500D54ECF /* SleekCare.xcdatamodeld */; };
+		5D2B165B2B658F1600D54ECF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D2B165A2B658F1600D54ECF /* Assets.xcassets */; };
+		5D2B165E2B658F1600D54ECF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D2B165C2B658F1600D54ECF /* LaunchScreen.storyboard */; };
+		5D2B16662B65967D00D54ECF /* DashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D2B16652B65967D00D54ECF /* DashboardViewController.swift */; };
+		5D2B16682B65B33300D54ECF /* PrescriptionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D2B16672B65B33300D54ECF /* PrescriptionViewController.swift */; };
+		5D2B166B2B65B9CB00D54ECF /* TranscriptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D2B166A2B65B9CB00D54ECF /* TranscriptionView.swift */; };
+		5D2B166D2B65BB2100D54ECF /* DrawingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D2B166C2B65BB2100D54ECF /* DrawingView.swift */; };
+		5D5F55082B93D5BD0001F05B /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D5F55072B93D5BD0001F05B /* LoginViewController.swift */; };
+		5D65E1012B65D01600542B89 /* PrescriptionWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D65E1002B65D01600542B89 /* PrescriptionWindow.swift */; };
+		5D84DD0F2B8BD33E00A030C1 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5D84DD0E2B8BD33E00A030C1 /* GoogleService-Info.plist */; };
+		5DF6DEA52BCA019600098C74 /* PrescriptionDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DF6DEA42BCA019500098C74 /* PrescriptionDataManager.swift */; };
+		EA833693ADD660AE9932E4A4 /* Pods_SleekCare.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D8D54A74F8CD02D832C9675 /* Pods_SleekCare.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5658E7250A15FC13C2CB4CCF /* Pods-SleekCare.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SleekCare.release.xcconfig"; path = "Target Support Files/Pods-SleekCare/Pods-SleekCare.release.xcconfig"; sourceTree = "<group>"; };
+		5D2B164B2B658F1500D54ECF /* SleekCare.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SleekCare.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D2B164E2B658F1500D54ECF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5D2B16502B658F1500D54ECF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		5D2B16522B658F1500D54ECF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5D2B16552B658F1500D54ECF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5D2B16582B658F1500D54ECF /* SleekCare.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SleekCare.xcdatamodel; sourceTree = "<group>"; };
+		5D2B165A2B658F1600D54ECF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5D2B165D2B658F1600D54ECF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5D2B165F2B658F1600D54ECF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5D2B16652B65967D00D54ECF /* DashboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewController.swift; sourceTree = "<group>"; };
+		5D2B16672B65B33300D54ECF /* PrescriptionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrescriptionViewController.swift; sourceTree = "<group>"; };
+		5D2B166A2B65B9CB00D54ECF /* TranscriptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TranscriptionView.swift; sourceTree = "<group>"; };
+		5D2B166C2B65BB2100D54ECF /* DrawingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingView.swift; sourceTree = "<group>"; };
+		5D5F55072B93D5BD0001F05B /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		5D65E1002B65D01600542B89 /* PrescriptionWindow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrescriptionWindow.swift; sourceTree = "<group>"; };
+		5D84DD0E2B8BD33E00A030C1 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		5DF6DEA42BCA019500098C74 /* PrescriptionDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrescriptionDataManager.swift; sourceTree = "<group>"; };
+		9D8D54A74F8CD02D832C9675 /* Pods_SleekCare.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SleekCare.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEB92C292476DFBC1D85990A /* Pods-SleekCare.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SleekCare.debug.xcconfig"; path = "Target Support Files/Pods-SleekCare/Pods-SleekCare.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5D2B16482B658F1500D54ECF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA833693ADD660AE9932E4A4 /* Pods_SleekCare.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3F14FA61C4BC0B79FAEFEEC8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CEB92C292476DFBC1D85990A /* Pods-SleekCare.debug.xcconfig */,
+				5658E7250A15FC13C2CB4CCF /* Pods-SleekCare.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		5D2B16422B658F1500D54ECF = {
+			isa = PBXGroup;
+			children = (
+				5D2B164D2B658F1500D54ECF /* SleekCare */,
+				5D2B164C2B658F1500D54ECF /* Products */,
+				3F14FA61C4BC0B79FAEFEEC8 /* Pods */,
+				9A296648F744CDF137F959B8 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5D2B164C2B658F1500D54ECF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5D2B164B2B658F1500D54ECF /* SleekCare.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5D2B164D2B658F1500D54ECF /* SleekCare */ = {
+			isa = PBXGroup;
+			children = (
+				5D2B164E2B658F1500D54ECF /* AppDelegate.swift */,
+				5D2B16522B658F1500D54ECF /* ViewController.swift */,
+				5D2B16542B658F1500D54ECF /* Main.storyboard */,
+				5D2B16502B658F1500D54ECF /* SceneDelegate.swift */,
+				5D5F55072B93D5BD0001F05B /* LoginViewController.swift */,
+				5D65E0FF2B65CEDD00542B89 /* Prescription Window */,
+				5D65E0FE2B65CD6000542B89 /* Dashboard Screen */,
+				5D2B16692B65B9AE00D54ECF /* Prescription Screen */,
+				5D2B165A2B658F1600D54ECF /* Assets.xcassets */,
+				5D2B165C2B658F1600D54ECF /* LaunchScreen.storyboard */,
+				5D2B165F2B658F1600D54ECF /* Info.plist */,
+				5D84DD0E2B8BD33E00A030C1 /* GoogleService-Info.plist */,
+				5D2B16572B658F1500D54ECF /* SleekCare.xcdatamodeld */,
+			);
+			path = SleekCare;
+			sourceTree = "<group>";
+		};
+		5D2B16692B65B9AE00D54ECF /* Prescription Screen */ = {
+			isa = PBXGroup;
+			children = (
+				5D2B16672B65B33300D54ECF /* PrescriptionViewController.swift */,
+				5DF6DEA42BCA019500098C74 /* PrescriptionDataManager.swift */,
+				5D2B166A2B65B9CB00D54ECF /* TranscriptionView.swift */,
+				5D2B166C2B65BB2100D54ECF /* DrawingView.swift */,
+			);
+			path = "Prescription Screen";
+			sourceTree = "<group>";
+		};
+		5D65E0FE2B65CD6000542B89 /* Dashboard Screen */ = {
+			isa = PBXGroup;
+			children = (
+				5D2B16652B65967D00D54ECF /* DashboardViewController.swift */,
+			);
+			path = "Dashboard Screen";
+			sourceTree = "<group>";
+		};
+		5D65E0FF2B65CEDD00542B89 /* Prescription Window */ = {
+			isa = PBXGroup;
+			children = (
+				5D65E1002B65D01600542B89 /* PrescriptionWindow.swift */,
+			);
+			name = "Prescription Window";
+			path = ..;
+			sourceTree = "<group>";
+		};
+		9A296648F744CDF137F959B8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9D8D54A74F8CD02D832C9675 /* Pods_SleekCare.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5D2B164A2B658F1500D54ECF /* SleekCare */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5D2B16622B658F1600D54ECF /* Build configuration list for PBXNativeTarget "SleekCare" */;
+			buildPhases = (
+				F647876A90089BB9B69A1D3C /* [CP] Check Pods Manifest.lock */,
+				5D2B16472B658F1500D54ECF /* Sources */,
+				5D2B16482B658F1500D54ECF /* Frameworks */,
+				5D2B16492B658F1500D54ECF /* Resources */,
+				626C34F9F2F745C7D86DE8D6 /* [CP] Embed Pods Frameworks */,
+				C44254795AB22E04038CB903 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SleekCare;
+			productName = SleekCare;
+			productReference = 5D2B164B2B658F1500D54ECF /* SleekCare.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5D2B16432B658F1500D54ECF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					5D2B164A2B658F1500D54ECF = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = 5D2B16462B658F1500D54ECF /* Build configuration list for PBXProject "SleekCare" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5D2B16422B658F1500D54ECF;
+			productRefGroup = 5D2B164C2B658F1500D54ECF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5D2B164A2B658F1500D54ECF /* SleekCare */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5D2B16492B658F1500D54ECF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D2B165E2B658F1600D54ECF /* LaunchScreen.storyboard in Resources */,
+				5D2B165B2B658F1600D54ECF /* Assets.xcassets in Resources */,
+				5D84DD0F2B8BD33E00A030C1 /* GoogleService-Info.plist in Resources */,
+				5D2B16562B658F1500D54ECF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		626C34F9F2F745C7D86DE8D6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SleekCare/Pods-SleekCare-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SleekCare/Pods-SleekCare-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SleekCare/Pods-SleekCare-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C44254795AB22E04038CB903 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SleekCare/Pods-SleekCare-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SleekCare/Pods-SleekCare-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SleekCare/Pods-SleekCare-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F647876A90089BB9B69A1D3C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SleekCare-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5D2B16472B658F1500D54ECF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D2B166B2B65B9CB00D54ECF /* TranscriptionView.swift in Sources */,
+				5D2B16532B658F1500D54ECF /* ViewController.swift in Sources */,
+				5D65E1012B65D01600542B89 /* PrescriptionWindow.swift in Sources */,
+				5D2B16592B658F1500D54ECF /* SleekCare.xcdatamodeld in Sources */,
+				5D2B166D2B65BB2100D54ECF /* DrawingView.swift in Sources */,
+				5D2B16662B65967D00D54ECF /* DashboardViewController.swift in Sources */,
+				5DF6DEA52BCA019600098C74 /* PrescriptionDataManager.swift in Sources */,
+				5D2B164F2B658F1500D54ECF /* AppDelegate.swift in Sources */,
+				5D2B16682B65B33300D54ECF /* PrescriptionViewController.swift in Sources */,
+				5D5F55082B93D5BD0001F05B /* LoginViewController.swift in Sources */,
+				5D2B16512B658F1500D54ECF /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5D2B16542B658F1500D54ECF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5D2B16552B658F1500D54ECF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5D2B165C2B658F1600D54ECF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5D2B165D2B658F1600D54ECF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5D2B16602B658F1600D54ECF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5D2B16612B658F1600D54ECF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5D2B16632B658F1600D54ECF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CEB92C292476DFBC1D85990A /* Pods-SleekCare.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(inherited)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q3BWML7R33;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "$(inherited)";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SleekCare/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Tmncode.SleekCare;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5D2B16642B658F1600D54ECF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5658E7250A15FC13C2CB4CCF /* Pods-SleekCare.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(inherited)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q3BWML7R33;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "$(inherited)";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SleekCare/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Tmncode.SleekCare;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5D2B16462B658F1500D54ECF /* Build configuration list for PBXProject "SleekCare" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D2B16602B658F1600D54ECF /* Debug */,
+				5D2B16612B658F1600D54ECF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5D2B16622B658F1600D54ECF /* Build configuration list for PBXNativeTarget "SleekCare" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D2B16632B658F1600D54ECF /* Debug */,
+				5D2B16642B658F1600D54ECF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		5D2B16572B658F1500D54ECF /* SleekCare.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				5D2B16582B658F1500D54ECF /* SleekCare.xcdatamodel */,
+			);
+			currentVersion = 5D2B16582B658F1500D54ECF /* SleekCare.xcdatamodel */;
+			path = SleekCare.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 5D2B16432B658F1500D54ECF /* Project object */;
+}
